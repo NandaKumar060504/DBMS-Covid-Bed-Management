@@ -1,4 +1,3 @@
-# DBMS-Covid-Bed-Management
 
 # COVID Bed Management System
 
