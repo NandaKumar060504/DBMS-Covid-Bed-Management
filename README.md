@@ -52,6 +52,6 @@ The **COVID Bed Management System** is a web application developed to streamline
 
 ## Contributions and Project Owners
 
--- **Nanda Kumar T SRN(PES1UG22CCS375)**
+-- **Nanda Kumar T SRN(PES1UG22CCS375)** <br>
 -- **Nikhil M SRN(PES1UG22CS384)**
 
