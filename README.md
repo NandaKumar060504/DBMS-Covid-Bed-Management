@@ -28,11 +28,11 @@ The **COVID Bed Management System** is a web application developed to streamline
 
 ## Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript, React.js (if applicable)
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (or your database of choice)
+- **Frontend**: HTML, CSS
+- **Backend**: Flask
+- **Database**: MySQL Databse
 - **Authentication**: JWT (JSON Web Tokens) or another method
-- **Hosting**: (e.g., Heroku, AWS, or local)
+
 
 ## Installation
 
@@ -40,3 +40,6 @@ The **COVID Bed Management System** is a web application developed to streamline
    ```bash
    git clone https://github.com/NandaKumar060504/DBMS-Covid-Bed-Management.git
    cd DBMS-Covid-Bed-Management
+
+## Depencencies
+
