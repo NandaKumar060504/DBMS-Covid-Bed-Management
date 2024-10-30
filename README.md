@@ -8,9 +8,8 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Contributions and Project Owners](#contributing)
+
 
 ---
 
@@ -42,4 +41,17 @@ The **COVID Bed Management System** is a web application developed to streamline
    cd DBMS-Covid-Bed-Management
 
 ## Depencencies
+
+1. ** Install Dependencides given below **:
+   ``` bash
+   install flask
+   install mysqlclient
+   install flask sql alchemy
+   install flask login
+   install flask mail
+
+## Contributions and Project Owners
+
+-- **Nanda Kumar T SRN(PES1UG22CCS375)**
+-- **Nikhil M SRN(PES1UG22CS384)**
 
