@@ -17,22 +17,6 @@ app=Flask(__name__)
 app.secret_key="aneesrehmankhan"
 
 
-# with open('config.json','r') as c:
-#     params=json.load(c)["params"]
-
-
-
-# app.config.update(
-#     MAIL_SERVER='smtp.gmail.com',
-#     MAIL_PORT='465',
-#     MAIL_USE_SSL=True,
-#     MAIL_USERNAME='gmail account',
-#     MAIL_PASSWORD='gmail account password'
-# )
-# mail = Mail(app)
-
-
-
 # this is for getting the unique user access
 login_manager=LoginManager(app)
 login_manager.login_view='login'
@@ -114,8 +98,6 @@ def signup():
         srfid=request.form.get('srf')
         email=request.form.get('email')
         dob=request.form.get('dob')
-        # print(srfid,email,dob)
-        #encpassword=generate_password_hash(dob)
         user=User.query.filter_by(srfid=srfid).first()
         emailUser=User.query.filter_by(email=email).first()
         if user or emailUser:
@@ -299,7 +281,6 @@ def hedit(id):
         ibed=request.form.get('icubeds')
         vbed=request.form.get('ventbeds')
         hcode=hcode.upper()
-        # db.engine.execute(f"UPDATE `hospitaldata` SET `hcode` ='{hcode}',`hname`='{hname}',`normalbed`='{nbed}',`hicubed`='{hbed}',`icubed`='{ibed}',`vbed`='{vbed}' WHERE `hospitaldata`.`id`={id}")
         post=Hospitaldata.query.filter_by(id=id).first()
         post.hcode=hcode
         post.hname=hname
